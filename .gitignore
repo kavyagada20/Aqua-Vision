@@ -1,0 +1,51 @@
+# 🔹 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔹 Virtual environment
+venv/
+env/
+.venv/
+
+# 🔹 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Dataset (IMPORTANT - don’t push large data)
+# data/
+# datasets/
+# *.csv
+# *.json
+# *.zip
+# *.tar.gz
+
+# 🔹 Model weights (very important)
+# *.pt
+# *.pth
+# *.h5
+# *.ckpt
+
+# 🔹 Logs & outputs
+# logs/
+# outputs/
+# runs/
+
+# 🔹 Environment variables / secrets
+.env
+
+# 🔹 VS Code / IDE files
+.vscode/
+.idea/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Temporary files
+*.tmp
+*.log
+
+# 🔹 Build files (future app)
+dist/
+build/
